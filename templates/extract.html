@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load staticfiles %}
+{% block title %}Duplicate Analysis Result{% endblock %}
+
+{% block main_content%}
+<section>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body table-responsive">
+                    <table class="table no-margin table-hover table-bordered table-striped " id="detTable">
+                        <thead>
+                            <tr>
+                                <th>Line No</th>
+                                <th>Content Of the Line</th>
+                                <th>Lines Containing Duplicates</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">
+                            <tr>
+                                <td>{% for line in lines %}{{line}}<br><hr>{% endfor %}</td>
+                                <td>{% for content in contents %}{{ content }}<br><hr>{% endfor %}</td>
+                                <td>{% for dup_line in dup_lines %}{{ dup_line }}<br><hr>{% endfor %}</td>
+                         </tr>
+                        </tbody>
+                    </table>
+                </div><!--end .card-body -->
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+{% endblock main_content %}
+{% block extrajs %}
+<script type="text/javascript">
+    $(function(){
+        $('#detTable').DataTable();
+    });
+</script>
+
+
+{% endblock extrajs %}
+

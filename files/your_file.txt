@@ -1,0 +1,48 @@
+UI Home Page
+Fav icon to be replaced with the one that exists in current website
+Raname Features as TODAYS DEAL
+View Cart and Checkout still do not work in My Cart URL needed
+Space between cart icon and View Cart and arrow icon and Checkout
+Sabai tira Quickview lai Quick View ma rename garne
+b'- Footer ma copyright wala part lai "\xa9 BreadFruit Pvt. Ltd., 2018" banaune \r\n'
+Have a place where we have a section to Like our facebook page May be you can just show three Latest Product and use the space to embed facebook Like page button
+List view page Front end
+Add to Cart ma hover garda font white bhayera dekhinna
+Pages and Notifications
+Have a 404 page set up
+A notification stating Your order has been placed We will be in touch with you shortly to be displayed once a person places order
+Any order that is place should be automatically assigned as Order under review status
+Do not ask for email address when someone uses Tracker to track his order Rename Code as Tracking id
+The URL provided on the email to check my order status sent to me after placing the order has error This one http breadfruit prixa net confirmation MQ 4yy eaacc7f9a7a3261acada 143
+Changes in the form when product is out of stock
+Oops The product you ordered is currently out of stock Please provide you email address to get notified when stock is available
+Have email as Email a compulsory field
+How do we admin know the a user has filled this form CMS ma kata herna milcha
+Email
+All the orders to be sent through no reply breadfruit me
+CMS
+User
+Error exists when trying to email User details
+Order
+How do we find details on order placed by a single person Qty product name price he is paying
+How to make changes to the person s order
+Rename Ship button into Update Status
+CMS Menu
+Show the number of notifications red color ma number dekhaune for new messages inquiries and orders
+Order the menus as Message Inquiries Products Category Order Tracker
+Tracker
+How do I know which tracking id is for which specific order Eutai manche le duita order place garyo bhane kun tracking id kun order lai ho bhanera kasari thaha paune
+http breadfruit prixa net accounts profile 1 edit page
+Hide billing address and Shipping address for now
+Raname Address as Shipping Address
+Others
+Please check this page it has issue with padding http breadfruit prixa net new products
+Search ko page ma pani padding milaunu parne dekhincha http breadfruit prixa net search category search=Arduino product search=
+Change email to sales breadfruit me in http breadfruit prixa net ourstores Also add hours as 9 30 to 5 30 for Friday
+http breadfruit prixa net about ma pani change email to sales breadfruit me Out Team ko tala bhayeko image lai Cheers lekheko ra Sparking Innovation wala text lai hataidinus
+Confusions write me back on Slack about these
+What does Not yet in http breadfruit prixa net your orders mean Shall me rename Status to Delivered if it is trying to say that the order has not been delivered
+What is the difference between making changes to the order status through Order and through Tracker Are they the same
+What is Sales supposed to show
+What is the use of Make Order
+How do I change a person s address or phone number through CMS as an admin

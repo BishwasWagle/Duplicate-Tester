@@ -1,0 +1,9 @@
+*.pyc
+__pycache__/
+migrations
+stacticcdn
+.idea/
+db.sqlite3
+media/
+staticcdn/
+.vscode
